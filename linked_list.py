@@ -34,11 +34,11 @@ def next_block(last_block):
     previous_blockchain_hash = last_block.hash
 
     #define the new block here
-    newest_block = Block(blockchain_index, next_block_timestamp, next_block_content, previous_blockchain_hash)
+    return Block(blockchain_index, next_block_timestamp, next_block_content, previous_blockchain_hash)
     #Test Print function
     #print("NEW BLOCK GENERATED: ", newest_block, blockchain_index)
 
-    return newest_block
+
 
 
 # append 5 blocks to the blockchain
