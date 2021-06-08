@@ -36,7 +36,7 @@ def next_block(last_block):
     #define the new block here
     newest_block = Block(blockchain_index, next_block_timestamp, next_block_content, previous_blockchain_hash)
     #Test Print function
-    print("NEW BLOCK GENERATED: ", newest_block, blockchain_index)
+    #print("NEW BLOCK GENERATED: ", newest_block, blockchain_index)
 
     return newest_block
 
