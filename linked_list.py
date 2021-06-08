@@ -59,7 +59,6 @@ def app_five(block_list):
 
 # M4BlockChain.append(app_five(M4BlockChain))
 # print(len(M4BlockChain))
-
 # print("first block: ", M4BlockChain[0].index)
 # print("second block: ", M4BlockChain[1].index)
 # print("third block: ", M4BlockChain[2].index)
