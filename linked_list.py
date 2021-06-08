@@ -53,7 +53,7 @@ def app_five(block_list):
     #append to linked list
     block_list.append(next_block(terminal_block))
 
-  # print(block_list)
+  print(block_list)
   # return block_list
 
 
